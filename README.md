@@ -8,7 +8,7 @@ GCP Cloud Run にコンテナ作成済。
 以下ローカル起動手順
 
 ```bash
-docker-compose up --build # コンテナビルド・起動
+docker-compose up -d --build # コンテナビルド・起動
 docker-compose down # コンテナ終了・削除
 ```
 
