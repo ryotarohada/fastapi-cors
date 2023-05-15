@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+  fastapi_cors:
+    container_name: "fastapi_cors"
+    volumes:
+      - ./:/app
+    build: .
+    ports:
+      - 8080:8080
